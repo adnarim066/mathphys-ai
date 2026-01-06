@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software & Data | MathPhys-ai Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><span>MathPhys-ai</span> Lab</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="software.html" class="nav-link active">Software & Data</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container" style="padding-top: 150px;">
+        <div class="section-header">
+            <h1 class="section-title">Software & Data</h1>
+        </div>
+
+        <div class="grid grid-2">
+            <!-- Software Item 1 -->
+            <div class="card">
+                <h3 class="card-title">unified-diffusion</h3>
+                <h4 class="card-subtitle">Lattice Field Theory / Generative AI</h4>
+                <p class="card-text" style="margin-bottom: 1rem;">
+                    A unified framework for diffusion models, with applications specifically tailored for Lattice Field
+                    Theory. Implements state-of-the-art generative modeling techniques.
+                </p>
+                <a href="https://github.com/mathisgerdes/unified-diffusion" target="_blank" class="btn btn-outline"
+                    style="font-size: 0.8rem;">View on GitHub</a>
+            </div>
+
+            <!-- Software Item 2 -->
+            <div class="card">
+                <h3 class="card-title">bijx</h3>
+                <h4 class="card-subtitle">JAX / Normalizing Flows</h4>
+                <p class="card-text" style="margin-bottom: 1rem;">
+                    A flexible library for Bijections and Normalizing Flows, powered by JAX. Designed for
+                    high-performance probabilistic modeling in physics contexts.
+                </p>
+                <a href="https://github.com/mathisgerdes/bijx" target="_blank" class="btn btn-outline"
+                    style="font-size: 0.8rem;">View on GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">MathPhys-ai Lab</div>
+            <div class="footer-text">© 2026 MathPhys-ai Lab. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
